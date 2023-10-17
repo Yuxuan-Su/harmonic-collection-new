@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    background: #FFEDF1;
+    overflow: hidden;
+    padding: 3vw 0;
+}
+.home_title{
+    width: 60%;
+    margin: 0 auto 30px auto;
+    font-size: 26px;
+    font-family: "Arial Black";
+}
+.home_con{
+    width: 60%;
+    margin: auto;
+    column-count: 2;
+    column-gap: 30px;
+}
+a{
+    display: block;
+    margin-bottom: 20px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+a:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: scale(1.05);
+}
+img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
