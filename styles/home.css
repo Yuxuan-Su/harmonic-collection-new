@@ -13,7 +13,9 @@
     width: 60%;
     margin: 0 auto 30px auto;
     font-size: 26px;
-    font-family: "Arial Black";
+    font-family: "panel", serif;
+    font-weight: 900;
+    font-style: italic;
 }
 .home_con{
     width: 60%;
