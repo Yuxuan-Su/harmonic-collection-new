@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.go_home {
+  display: block;
+  width: 180px;
+  padding: 15px 0;
+  background: pink;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid pink;
+  transition: all 0.3s;
+}
+
+.go_home:hover {
+  background: white;
+  color: pink;
+}
+
+@media screen and (max-width: 960px) {
+  /* Add your styles for smaller screens here */
+}

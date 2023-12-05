@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "circe-rounded", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -14,7 +17,7 @@ header h3 {
   color: pink;
 }
 
-.go_home{
+.go_home {
   display: block;
   width: 180px;
   padding: 15px 0;
@@ -28,7 +31,8 @@ header h3 {
   border: 2px solid pink;
   transition: all 0.3s;
 }
-.go_home:hover{
+
+.go_home:hover {
   background: white;
   color: pink;
 }
@@ -63,7 +67,8 @@ header h3 {
   width: 100%;
   border-radius: 20px;
 }
-.box1-left h2{
+
+.box1-left h2 {
   margin-top: 10px;
 }
 
@@ -99,17 +104,18 @@ header h3 {
   margin-top: 20px;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-gap: 20px;
 }
 
-.box2 >div{
+.box2 > div {
   border-radius: 20px;
   overflow: hidden;
   padding: 20px;
   background: white;
 }
+
 .box2 img {
   width: 100%;
 }
@@ -117,15 +123,17 @@ header h3 {
 .box2 h3 {
   margin-top: 20px;
 }
+
 .box2 h4 {}
-@media screen and (max-width: 960px){
-  .box1{
+
+@media screen and (max-width: 960px) {
+  .box1 {
     display: block;
   }
-  .box1>div{
+  .box1 > div {
     width: 100%;
   }
-  h1{
+  h1 {
     font-size: 24px;
     margin-top: 10px;
     text-align: center;
